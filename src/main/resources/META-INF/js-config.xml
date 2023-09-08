@@ -1,0 +1,8 @@
+<idea-plugin>
+    <extensions defaultExtensionNs="com.intellij">
+        <psi.referenceContributor
+                implementation="me.rerere.easy18n.feature.I18nReferenceContributor"
+                language="JavaScript"
+        />
+    </extensions>
+</idea-plugin>
